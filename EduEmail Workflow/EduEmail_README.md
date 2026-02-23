@@ -21,6 +21,13 @@ EduEmail AI Agent 是一个基于 n8n 构建的自动化工作流。它就像你
 - 📅 全自动日程表创建：将模糊时间（如“下周三下午”）转换为严谨的带时区格式，并写入 Outlook 日历。
 - 💎 容错路由设计：有图读图，没图读字，兼容批量邮件并发，尽量避免崩溃。
 
+📊 工作流截图示意
+下图是当前仓库中已经提供的两个 n8n 工作流：
+
+![EduEmail 实时通知工作流](image/n8n_email_notification_workflow.jpeg)
+
+![EduEmail 每日邮件日报工作流](image/n8n_email_daily_report.jpeg)
+
 🚀 极简部署指南 (How to Use)
 阶段一：环境准备（Docker + n8n）
 1. 安装 Docker Desktop（Win/Mac 均可）。
