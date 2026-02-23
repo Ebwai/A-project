@@ -52,3 +52,12 @@
     - 你长期关心哪些主题（求职 / 海外项目 / 比赛 / 奖学金等）
     - 你想要在各平台上呈现的个人风格（理性 / 松弛 / 幽默 / 技术流）
   - 未来会逐步把这些偏好融入到每一次邮件重写和内容生成中。
+
+
+## 🧪 工作流演示
+
+下图为当前 EduEmail 在 n8n 中的两个核心工作流示意：
+
+![EduEmail 实时通知工作流](EduEmail%20Workflow/image/n8n_email_notification_workflow.jpeg)
+
+![EduEmail 每日邮件日报工作流](EduEmail%20Workflow/image/n8n_email_daily_report.jpeg)
