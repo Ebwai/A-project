@@ -2,26 +2,6 @@
   "nodes": [
     {
       "parameters": {
-        "rule": {
-          "interval": [
-            {
-              "field": "cronExpression",
-              "expression": "30 22 * * *"
-            }
-          ]
-        }
-      },
-      "id": "63875a77-804f-4718-90b6-6ae1ef70c7b9",
-      "name": "每天 22:30 触发",
-      "type": "n8n-nodes-base.scheduleTrigger",
-      "typeVersion": 1,
-      "position": [
-        -1264,
-        112
-      ]
-    },
-    {
-      "parameters": {
         "command": "cat /files/daily_emails.jsonl || echo \"\""
       },
       "id": "d40ccb4c-8cba-4890-99af-2f00d8a77048",
@@ -180,20 +160,28 @@
           "name": "飞书租户维度 account"
         }
       }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 23
+            }
+          ]
+        }
+      },
+      "id": "63875a77-804f-4718-90b6-6ae1ef70c7b9",
+      "name": "每天 23:00 触发",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1264,
+        112
+      ]
     }
   ],
   "connections": {
-    "每天 22:30 触发": {
-      "main": [
-        [
-          {
-            "node": "Date & Time1",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "读取暂存文件": {
       "main": [
         [
@@ -270,6 +258,17 @@
           },
           {
             "node": "邮箱日报1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "每天 23:00 触发": {
+      "main": [
+        [
+          {
+            "node": "Date & Time1",
             "type": "main",
             "index": 0
           }
