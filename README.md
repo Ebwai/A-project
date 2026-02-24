@@ -69,4 +69,4 @@
 
 
 ## 参考项目
-本项目基于 https://github.com/iamtornado/playwright-automation 进行修改和升级，更新了原本的一些失效的操作逻辑，增加了一些新的功能，在这里也感谢一下原作者！
+本项目的Social_Spread WorkFlow部分基于 https://github.com/iamtornado/playwright-automation 进行修改和升级，更新了原本的一些失效的操作逻辑，增加了一些新的功能，在这里也感谢一下原作者！
