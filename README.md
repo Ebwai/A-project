@@ -61,3 +61,8 @@
 ![EduEmail 实时通知工作流](EduEmail%20Workflow/image/n8n_email_notification_workflow.jpeg)
 
 ![EduEmail 每日邮件日报工作流](EduEmail%20Workflow/image/n8n_email_daily_report.jpeg)
+
+
+🐵demo演示视频： [demo演示视频](https://www.bilibili.com/video/BV1eif1BaEGo/?spm_id_from=333.1387.homepage.video_card.click&vd_source=1044a024553c8d9171a5ed4d7fcfc63a)
+   CyberMe介绍视频： [CyberMe介绍视频](https://www.douyin.com/user/self?modal_id=7610361349218045236)
+
