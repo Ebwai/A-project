@@ -43,6 +43,7 @@ EduEmail AI Agent 是一个基于 n8n 构建的自动化工作流。它就像你
 - 配置 Microsoft Outlook OAuth2 凭证，用于读取邮件 + 写入日历。
 - 配置 AI 模型 API Key（如 OpenAI / 阿里云千问）。
 - 在打分与路由 Code 节点里，替换为你自己邮箱的真实 Folder ID。
+- 在每日邮件日报的工作流中，一定要点击右上角的设置，里面有时区需要设置为你所在的地区，否则他不会按照您的时区到点触发的，比如你所处中国，可以设置为Asia/Shanghai
 
 ✅ 已完成特性
 - [x] HTML 邮件转 Markdown 降噪
