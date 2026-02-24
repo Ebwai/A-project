@@ -66,3 +66,6 @@
 🐵demo演示视频： [demo演示视频](https://www.bilibili.com/video/BV1eif1BaEGo/?spm_id_from=333.1387.homepage.video_card.click&vd_source=1044a024553c8d9171a5ed4d7fcfc63a)
    CyberMe介绍视频： [CyberMe介绍视频](https://www.douyin.com/user/self?modal_id=7610361349218045236)
 
+
+## 参考项目
+本项目基于 https://github.com/iamtornado/playwright-automation 进行修改和升级，更新了原本的一些失效的操作逻辑，增加了一些新的功能，在这里也感谢一下原作者！
